@@ -26,6 +26,10 @@ var discs = s.group(smallCircle, s.circle(200, 150, 70));
 discs.attr({
     fill: "#fff"
 });
+
+bigCircle.attr({
+    mask: discs
+});
 	</script>
 </body>
 </html>
